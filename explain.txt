@@ -1,0 +1,8 @@
+A. A graph is the right structure to represent a social network because it can handle biodirectional relationships.
+    Instead of just a one-way path connecting two objects, there is a path that goes back and forth. There is no hierarchy in a social network, 
+    and anybody could be connected to anybody. Using a graph can accomplish this by creating different edges to connect all the nodes. 
+B. A list or tree wouldn't work well because a tree only allows certain nodes a certain number of connections and a list would not accurately show
+    who is connected to who. A graph allows many connections in many different orders, while trees and lists allow few connections with a specific order. 
+C. When adding friends and printing networks, I realized it went alot faster because it would not have to print things out in a certain order. 
+    However, with the ability to print quickly, it held more memory because it had to track which people were added already and which friendships within those people 
+    were added already. With a list or tree, it can just go straight down, however, with a graph, it has to check everyone connection. 
